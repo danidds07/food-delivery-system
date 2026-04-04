@@ -142,6 +142,7 @@ food-delivery-system/
 </ul>
 
 <h2>👨‍💻 Author</h2>
-<p>
-  Developed as part of academic and practical training in software development.
+
+<p align="center">
+  Developed by <strong>Daniel Augusto Silva</strong><br>
 </p>
