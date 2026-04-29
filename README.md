@@ -1,13 +1,13 @@
 <h1 align="center">📦 Food Delivery System</h1>
 
 <p align="center">
-  A Java-based food delivery system built with a command-line interface (CLI), featuring
-  client registration, restaurant management, and order processing.
+  A Java-based food delivery system featuring both a command-line interface (CLI) and a graphical user interface (GUI),
+  including client registration, restaurant management, and order processing.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Core-orange?style=for-the-badge&logo=java">
-  <img src="https://img.shields.io/badge/Application-CLI-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Application-CLI%20%2B%20GUI-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Architecture-OOP-blue?style=for-the-badge">
 </p>
 
@@ -22,19 +22,20 @@
   <li>Order status updates</li>
   <li>Order listing with details</li>
   <li>Automatic deliveryman assignment</li>
+  <li>Graphical interface for user interaction (GUI)</li>
 </ul>
 
 <h2>🧠 About the Project</h2>
 <p>
-  This project simulates a food delivery platform in a terminal environment.
+  This project simulates a food delivery platform with both terminal and graphical interfaces.
   It allows users to register clients, restaurants, and delivery personnel,
   create orders from restaurant menus, assign deliverymen, and track order status.
 </p>
 
 <p>
   The main goal of this project is to practice <strong>Java programming</strong>,
-  <strong>object-oriented programming concepts</strong>, and <strong>system organization</strong>
-  through a real-world inspired application.
+  <strong>object-oriented programming concepts</strong>, and <strong>system design</strong>,
+  including the transition from CLI applications to graphical interfaces.
 </p>
 
 <h2>🏗️ Project Structure</h2>
@@ -69,6 +70,7 @@ food-delivery-system/
   <li>Java</li>
   <li>Object-Oriented Programming (OOP)</li>
   <li>Command-Line Interface (CLI)</li>
+  <li>Graphical User Interface (GUI)</li>
 </ul>
 
 <h2>🔄 Order Workflow</h2>
@@ -95,6 +97,7 @@ food-delivery-system/
   <li>Enums</li>
   <li>Lists and collections</li>
   <li>Separation of responsibilities</li>
+  <li>GUI design and interaction</li>
 </ul>
 
 <h2>▶️ How to Run</h2>
@@ -105,38 +108,26 @@ food-delivery-system/
 <p><strong>2. Run the application:</strong></p>
 <pre><code>java Main</code></pre>
 
-<h2>🖥️ Menu Preview</h2>
-<pre>
-1. Register client
-2. Register restaurant
-3. Register deliveryman
-4. New order
-5. Assign deliveryman
-6. Update order status
-7. Order list
-8. Exit
-</pre>
-
 <h2>📌 Highlights</h2>
 <ul>
+  <li>Dual interface: CLI and GUI</li>
   <li>Automatic ID generation for all entities</li>
   <li>Order total calculation based on selected items</li>
   <li>Delivery assignment based on availability</li>
   <li>Status-based order tracking</li>
-  <li>Terminal-based interaction for simplicity and learning</li>
 </ul>
 
 <h2>🎯 Purpose</h2>
 <p>
   This project was created for learning and practice purposes, focusing on Java fundamentals,
-  object-oriented design, and building structured console applications.
+  object-oriented design, and building both console and graphical applications.
 </p>
 
 <h2>📈 Future Improvements</h2>
 <ul>
   <li>Add data persistence with files or a database</li>
-  <li>Create a graphical user interface</li>
-  <li>Improve input validation and exception handling</li>
+  <li>Improve GUI usability and design</li>
+  <li>Enhance input validation and exception handling</li>
   <li>Add authentication for different user roles</li>
   <li>Implement more advanced order tracking features</li>
 </ul>
