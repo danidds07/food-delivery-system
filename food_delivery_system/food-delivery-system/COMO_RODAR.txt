@@ -1,0 +1,27 @@
+Projeto refatorado com banco de dados SQLite
+
+O que foi alterado:
+- Foi criada a classe src/database/Database.java
+- Agora clientes, restaurantes, itens do cardapio, entregadores e pedidos sao salvos no banco delivery.db
+- Ao abrir o programa de novo, os dados cadastrados anteriormente sao carregados do banco
+- O AppSystem continua usando listas, mas agora elas sao preenchidas pelo banco e atualizadas quando algo novo e cadastrado
+
+Importante:
+Este projeto usa SQLite via JDBC. Para rodar, precisa baixar o driver sqlite-jdbc e colocar na pasta lib do projeto.
+Exemplo de nome do arquivo:
+sqlite-jdbc-3.45.3.0.jar
+
+Como compilar pelo terminal dentro da pasta do projeto:
+
+Windows:
+javac -cp "lib/sqlite-jdbc-3.45.3.0.jar;src" -d bin src\Main.java src\client\*.java src\database\*.java src\deliveryman\*.java src\orders\*.java src\restaurant\*.java src\system\*.java src\users\*.java
+
+Como rodar no Windows:
+java -cp "bin;lib/sqlite-jdbc-3.45.3.0.jar" Main
+
+Linux/Mac:
+javac -cp "lib/sqlite-jdbc-3.45.3.0.jar:src" -d bin $(find src -name "*.java")
+java -cp "bin:lib/sqlite-jdbc-3.45.3.0.jar" Main
+
+Observacao:
+O arquivo delivery.db sera criado automaticamente na primeira vez que o programa rodar.
