@@ -1,45 +1,48 @@
-<h1 align="center">📦 Food Delivery System</h1>
+<h1 align="center">📦 Sistema de Delivery</h1>
 
 <p align="center">
-  A Java-based food delivery system featuring both a command-line interface (CLI) and a graphical user interface (GUI),
-  with SQLite database integration for persistent data storage, including client registration, restaurant management, and order processing.
+  Sistema de delivery desenvolvido em Java, com interface via terminal (CLI) e interface gráfica (GUI),
+  integrado ao banco de dados SQLite para armazenamento persistente de clientes, restaurantes e pedidos.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-Core-orange?style=for-the-badge&logo=java">
-  <img src="https://img.shields.io/badge/Application-CLI%20%2B%20GUI-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Database-SQLite-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Architecture-OOP-purple?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Aplicação-CLI%20%2B%20GUI-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Banco%20de%20Dados-SQLite-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Arquitetura-OOP-purple?style=for-the-badge">
 </p>
 
 <hr>
 
-<h2>🚀 Features</h2>
+<h2>🚀 Funcionalidades</h2>
 <ul>
-  <li>Client registration</li>
-  <li>Restaurant registration with menu items</li>
-  <li>Deliveryman registration</li>
-  <li>Order creation with multiple items</li>
-  <li>Order status updates</li>
-  <li>Order listing with details</li>
-  <li>Automatic deliveryman assignment</li>
-  <li>Graphical interface for user interaction (GUI)</li>
+  <li>Cadastro de clientes</li>
+  <li>Cadastro de restaurantes com itens no cardápio</li>
+  <li>Cadastro de entregadores</li>
+  <li>Criação de pedidos com múltiplos itens</li>
+  <li>Atualização do status dos pedidos</li>
+  <li>Listagem detalhada dos pedidos</li>
+  <li>Atribuição automática de entregadores</li>
+  <li>Interface gráfica para interação com o usuário (GUI)</li>
 </ul>
 
-<h2>🧠 About the Project</h2>
+<h2>🧠 Sobre o Projeto</h2>
 <p>
-  This project simulates a food delivery platform with both terminal and graphical interfaces.
-  It allows users to register clients, restaurants, and delivery personnel,
-  create orders from restaurant menus, assign deliverymen, and track order status.
+  Este projeto simula uma plataforma de delivery utilizando tanto interface gráfica quanto terminal.
+  O sistema permite cadastrar clientes, restaurantes e entregadores,
+  criar pedidos a partir dos cardápios dos restaurantes,
+  atribuir entregadores automaticamente e acompanhar o status das entregas.
 </p>
 
 <p>
-  The main goal of this project is to practice <strong>Java programming</strong>,
-  <strong>object-oriented programming concepts</strong>, and <strong>system design</strong>,
-  including the transition from CLI applications to graphical interfaces.
+  O principal objetivo deste projeto é praticar <strong>programação em Java</strong>,
+  <strong>programação orientada a objetos</strong>,
+  <strong>arquitetura de sistemas</strong> e
+  <strong>integração com banco de dados</strong>,
+  incluindo a evolução de aplicações CLI para aplicações com interface gráfica.
 </p>
 
-<h2>🏗️ Project Structure</h2>
+<h2>🏗️ Estrutura do Projeto</h2>
 
 <pre>
 food-delivery-system/
@@ -74,29 +77,30 @@ food-delivery-system/
 │       └── User.java
 │
 ├── bin/
-│   └── compiled files
+│   └── arquivos compilados
 │
 ├── delivery.db
 ├── COMO_RODAR.txt
 └── README.md
 </pre>
-<h2>⚙️ Technologies Used</h2>
+
+<h2>⚙️ Tecnologias Utilizadas</h2>
 <ul>
   <li>Java</li>
-  <li>Object-Oriented Programming (OOP)</li>
-  <li>Command-Line Interface (CLI)</li>
-  <li>Graphical User Interface (GUI)</li>
+  <li>Programação Orientada a Objetos (OOP)</li>
+  <li>Interface via Terminal (CLI)</li>
+  <li>Interface Gráfica (GUI)</li>
   <li>SQLite Database</li>
   <li>JDBC (SQLite Driver)</li>
 </ul>
 
-<h2>🔄 Order Workflow</h2>
+<h2>🔄 Fluxo do Pedido</h2>
 <ol>
-  <li>Register a client</li>
-  <li>Register a restaurant and add menu items</li>
-  <li>Create a new order</li>
-  <li>Assign an available deliveryman</li>
-  <li>Update the order status:
+  <li>Cadastrar um cliente</li>
+  <li>Cadastrar um restaurante e adicionar itens ao cardápio</li>
+  <li>Criar um novo pedido</li>
+  <li>Atribuir um entregador disponível</li>
+  <li>Atualizar o status do pedido:
     <ul>
       <li><code>REALIZADO</code></li>
       <li><code>EM_PREPARO</code></li>
@@ -106,72 +110,65 @@ food-delivery-system/
   </li>
 </ol>
 
-<h2>💡 Concepts Applied</h2>
+<h2>💡 Conceitos Aplicados</h2>
 <ul>
-  <li>Inheritance</li>
-  <li>Encapsulation</li>
-  <li>Abstract classes</li>
+  <li>Herança</li>
+  <li>Encapsulamento</li>
+  <li>Classes abstratas</li>
   <li>Enums</li>
-  <li>Lists and collections</li>
-  <li>Separation of responsibilities</li>
-  <li>GUI design and interaction</li>
-  <li>Database integration with SQLite</li>
-  <li>Persistent data storage</li>
-  <li>JDBC connectivity</li>
+  <li>Listas e coleções</li>
+  <li>Separação de responsabilidades</li>
+  <li>Design e interação GUI</li>
+  <li>Integração com banco de dados SQLite</li>
+  <li>Persistência de dados</li>
+  <li>Conectividade JDBC</li>
 </ul>
 
-<h2>▶️ How to Run</h2>
+<h2>▶️ Como Executar</h2>
 
 <p>
-  This project uses <strong>SQLite via JDBC</strong>. Before running the application,
-  download the SQLite JDBC driver and place it inside the <code>lib/</code> folder.
+  Este projeto utiliza <strong>SQLite via JDBC</strong>. Antes de executar,
+  baixe o driver JDBC do SQLite e coloque-o dentro da pasta <code>lib/</code>.
 </p>
 
-<p><strong>Example driver file:</strong></p>
+<p><strong>Exemplo do driver:</strong></p>
 <pre><code>sqlite-jdbc-3.45.3.0.jar</code></pre>
 
-<p><strong>Windows - Compile:</strong></p>
+<p><strong>Windows - Compilar:</strong></p>
 <pre><code>javac -cp "lib/sqlite-jdbc-3.45.3.0.jar;src" -d bin src\Main.java src\client\*.java src\database\*.java src\deliveryman\*.java src\orders\*.java src\restaurant\*.java src\system\*.java src\users\*.java</code></pre>
 
-<p><strong>Windows - Run:</strong></p>
+<p><strong>Windows - Executar:</strong></p>
 <pre><code>java -cp "bin;lib/sqlite-jdbc-3.45.3.0.jar" Main</code></pre>
 
-<p><strong>Linux/Mac - Compile:</strong></p>
+<p><strong>Linux/Mac - Compilar:</strong></p>
 <pre><code>javac -cp "lib/sqlite-jdbc-3.45.3.0.jar:src" -d bin $(find src -name "*.java")</code></pre>
 
-<p><strong>Linux/Mac - Run:</strong></p>
+<p><strong>Linux/Mac - Executar:</strong></p>
 <pre><code>java -cp "bin:lib/sqlite-jdbc-3.45.3.0.jar" Main</code></pre>
 
 <p>
-  The <code>delivery.db</code> file will be created automatically when the program runs for the first time.
+  O arquivo <code>delivery.db</code> será criado automaticamente na primeira execução do programa.
 </p>
 
-<h2>📌 Highlights</h2>
+<h2>📌 Destaques</h2>
 <ul>
-  <li>Dual interface: CLI and GUI</li>
-  <li>Automatic ID generation for all entities</li>
-  <li>Order total calculation based on selected items</li>
-  <li>Delivery assignment based on availability</li>
-  <li>Status-based order tracking</li>
+  <li>Interface dupla: CLI e GUI</li>
+  <li>Geração automática de IDs para todas as entidades</li>
+  <li>Cálculo automático do valor total do pedido</li>
+  <li>Atribuição de entregadores baseada em disponibilidade</li>
+  <li>Controle completo de status dos pedidos</li>
+  <li>Persistência de dados com SQLite</li>
 </ul>
 
-<h2>🎯 Purpose</h2>
+<h2>🎯 Objetivo</h2>
 <p>
-  This project was created for learning and practice purposes, focusing on Java fundamentals,
-  object-oriented design, and building both console and graphical applications.
+  Este projeto foi desenvolvido com foco em aprendizado e prática,
+  aplicando conceitos de Java, orientação a objetos,
+  interfaces gráficas e persistência de dados em aplicações reais.
 </p>
 
-<h2>📈 Future Improvements</h2>
-<ul>
-  <li>Improve database structure and queries</li>
-  <li>Improve GUI usability and design</li>
-  <li>Enhance input validation and exception handling</li>
-  <li>Add authentication for different user roles</li>
-  <li>Implement more advanced order tracking features</li>
-</ul>
-
-<h2>👨‍💻 Author</h2>
+<h2>👨‍💻 Autor</h2>
 
 <p align="center">
-  Developed by <strong>Daniel Augusto Silva</strong><br>
+  Desenvolvido por <strong>Daniel Augusto Silva</strong><br>
 </p>
